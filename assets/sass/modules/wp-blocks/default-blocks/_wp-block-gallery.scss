@@ -1,0 +1,18 @@
+//--------------------------------------------------------------
+// WordPress Default Gallery Block
+//--------------------------------------------------------------
+
+// Remove the left margin/padding.
+.wp-block-gallery {
+	// @include margin(0);
+	// @include padding(0);
+
+	.blocks-gallery-item {
+		margin: 0;
+
+		.blocks-gallery-item__caption {
+			font-size: 1.4em;
+			font-family: $font-serif;
+		}
+	}
+} // .wp-block-gallery

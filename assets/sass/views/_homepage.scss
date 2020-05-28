@@ -1,0 +1,54 @@
+//--------------------------------------------------------------
+// Homepage
+//--------------------------------------------------------------
+
+.landing {
+	height: 80vh;
+}
+
+.front-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.landing-container {
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0.15) 0%,
+			rgba(0, 0, 0, 0.7) 100%
+		),
+		url("assets/images/1.jpg");
+	background-size: cover;
+
+	.links {
+		height: 30%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		a {
+			font-family: $font-serif;
+			font-size: 7rem;
+			text-decoration: none;
+			color: #fff;
+			margin: 0 1em;
+			border-bottom: 2px solid #fff;
+
+			&:visited {
+				color: #fff;
+			}
+		}
+	}
+
+	.info {
+		display: flex;
+		justify-content: center;
+		p {
+			color: #fff;
+			font-size: 1.5em;
+		}
+	}
+}
